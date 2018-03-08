@@ -15,6 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import *
+from django.conf.urls import url
 from django.contrib.auth import views as auth_views
 
 from core import views
